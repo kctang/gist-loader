@@ -1,0 +1,47 @@
+<html>
+<head>
+<!--
+<script type="text/javascript" src="components/jquery/jquery.min.js"></script>
+-->
+<script type="text/javascript" src="components/zepto/zepto.min.js"></script>
+<script type="text/javascript" src="gist-loader.js"></script>
+<script type="text/javascript">
+<!--
+	function toggle(id) {
+		$('div#' + id).toggle();
+		return false;
+	}
+//-->
+</script>
+</head>
+<body>
+
+<h1>gist-loader - Demo Page</h1>
+
+<div>
+<h2>Examples</h2>
+	<div>
+		<h3>Example 1: Typical usage.</h3>
+		HTML code:
+		<blockquote><code>&lt;b&gt;gist:kctang/76ae05ef797d5121a15b&lt;/b&gt;</code></blockquote>
+
+		Output [<a href="#" onclick="toggle('output1')">Show/Hide</a>]:
+		<div id="output1" style="display:none">
+			<b>gist:kctang/76ae05ef797d5121a15b</b>
+		</div>
+	</div>
+
+	<div>
+		<h3>Example 2: Specify maximum number of lines to display.</h3>
+		HTML code:
+		<blockquote><code>&lt;b&gt;gist:kctang/76ae05ef797d5121a15b:maxLines=10&lt;/b&gt;</code></blockquote>
+
+		Output [<a href="#" onclick="toggle('output2')">Show/Hide</a>]:
+		<div id="output2" style="display:none">
+			<b>gist:kctang/76ae05ef797d5121a15b:maxLines=10</b>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

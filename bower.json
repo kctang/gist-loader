@@ -1,0 +1,8 @@
+{
+  "name": "gist-loader",
+  "version": "0.0.1",
+  "dependencies": {
+    "zepto": "~1.0.0",
+    "jquery": "~2.0.3"
+  }
+}
