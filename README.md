@@ -12,7 +12,7 @@
 Add these to your HTML page's head tag:
 
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
-    <script type="text/javascript" src="gist-loader.js"></script>
+    <script type="text/javascript" src="http://rawgithub.com/kctang/gist-loader/master/gist-loader.js"></script>
 
 The idea is to specify these only once - in your blog/site's template. Once this is done, you can embed gists using the examples below as a guide.
 
