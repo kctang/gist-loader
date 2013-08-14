@@ -1,6 +1,6 @@
 # gist-loader
 
-#### A microformat where bolded text prefixed by `gist:` will be parsed as a gist and its contents will be embedded.
+#### A microformat where bolded text prefixed by `gist:` will be parsed as a gist and its contents embedded.
 
 `gist-loader.js` detects GitHub gists described in HTML content and display them as embedded gists. Why? To be able to...
 
@@ -15,6 +15,8 @@ Add these to your HTML page's head tag:
     <script type="text/javascript" src="http://rawgithub.com/kctang/gist-loader/master/gist-loader.js"></script>
 
 The idea is to specify these only once - in your blog/site's template. Once this is done, you can embed gists using the examples below as a guide.
+
+Note: If you are using jQuery, do not `zepto.min.js`. [Zepto](http://zeptojs.com/) is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API.
 
 ### Examples
 To see these examples in action, see the [demo page](http://rawgithub.com/kctang/gist-loader/master/demo.html).
@@ -32,7 +34,7 @@ HTML code:
 
 ### Dependencies
 
-* jQuery or Zepto
+* jQuery or Zepto.
 
 ### Develop
 Download required dependencies after forking this project:
