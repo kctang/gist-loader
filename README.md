@@ -17,7 +17,7 @@ Add these to your HTML page's head tag:
 The idea is to specify these only once - in your blog/site's template. Once this is done, you can embed gists using the examples below as a guide.
 
 ### Examples
-To see these examples in action, see the [demo page](demo.html).
+To see these examples in action, see the [demo page](http://rawgithub.com/kctang/gist-loader/master/demo.html).
 
 #### Example 1: Typical usage.
 HTML code:
